@@ -3,9 +3,7 @@
 // Definitions by: Lars Gleim <https://github.com/lgleim>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 
-export default MxGraphFactory;
-
-declare function MxGraphFactory(opts: {
+export declare function MxGraphFactory(opts: {
     /** Specifies the path in mxClient.basePath. */
     mxBasePath?: string;
     /** Specifies the path in mxClient.imageBasePath. */
@@ -24,9 +22,7 @@ declare function MxGraphFactory(opts: {
     mxForceIncludes?: boolean;
     /** Specify the extension of resource files. */
     mxResourceExtension?: string;
-}): typeof mxgraph;
-
-export module mxgraph {
+}): any
 
     export var mxClient: {
         VERSION: string;
@@ -20490,4 +20486,3 @@ export module mxgraph {
             */
         extendedDfs(parent: any, root: any, connectingEdge: any, visitor: any, seen: any, ancestors: any, childHash: any, layer: any): void;
     }
-}
