@@ -8,10 +8,10 @@
   ],
   "dependencies": {},
   "deprecated": false,
-  "description": "TypeScript definitions for mxgraph",
+  "description": "TypeScript definitions for jjgraph/mxgraph",
   "license": "MIT",
   "main": "",
-  "name": "@types/mxgraph",
+  "name": "@types/jjgraph",
   "scripts": {},
   "typeScriptVersion": "2.0",
   "version": "0.0.3"
